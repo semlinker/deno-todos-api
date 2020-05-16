@@ -1,0 +1,30 @@
+### 获取Todo列表
+GET http://localhost:3000/todos HTTP/1.1
+
+### 获取Todo详情
+
+GET http://localhost:3000/todos/0fb56b14-9038-4c40-81b1-daff8c9ea94a
+
+
+### 新增Todo
+
+POST http://localhost:3000/todos HTTP/1.1
+content-type: application/json
+
+{
+    "userId": 666,
+    "title": "Learn Deno"
+}
+
+### 更新Todo
+PUT http://localhost:3000/todos/0fb56b14-9038-4c40-81b1-daff8c9ea94a HTTP/1.1
+content-type: application/json
+
+{
+    "userId": 666,
+    "title": "Learn Deno",
+    "completed": true  
+}
+
+### 删除Todo
+DELETE  http://localhost:3000/todos/ff8849a5-6533-4f80-9bbb-fba859fc3587 HTTP/1.1
