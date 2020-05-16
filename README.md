@@ -1,5 +1,7 @@
 # deno-todos-api
 > 创建了一个 “重学TypeScript” 的微信群，想加群的小伙伴，加我微信 **"semlinker"**，备注重学 TS。
+>
+> 已出 TypeScript 系列教程 **33** 篇，欢迎感兴趣的小伙伴来阅读与交流。
 
 ### 一、Deno 简介 
 
@@ -97,12 +99,11 @@ Todos API 项目的目录结构如下所示：
 
 主要目录说明：
 
-- **handlers 目录：**存放路由处理器；
-- **middlewares 目录：**存放中间件，用于处理每个请求；
-- **models 目录：**存放模型定义，在我们的示例中只包含 Todo 接口；
-- **services 目录：**存放服务层程序；
+- **handlers 目录**： 存放路由处理器；
+- **middlewares 目录**： 存放中间件，用于处理每个请求；
+- **models 目录**： 存放模型定义，在我们的示例中只包含 Todo 接口；
+- **services 目录**： 存放服务层程序；
 - **db 目录**：作为本地数据库，存放 Todo 数据；
-- **config.ts：**包含应用的全局配置信息；
-- **index.ts：** 应用的入口文件；
-- **routing.ts：**包含 API 路由信息。
-
+- **config.ts**：包含应用的全局配置信息；
+- **index.ts** ：应用的入口文件；
+- **routing.ts**：包含 API 路由信息。
